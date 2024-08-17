@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 17-08-2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: SARAVANAN PV
+###  ROLL NO: 212223230195
+###  DEPARTMENT: AIDS
 
 
 
@@ -86,13 +86,24 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```C
+ while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
+	  HAL_Delay(2000);
+	  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_SET);
+	  HAL_Delay(2000);
+  }
+```
 
 
 
 
 
 ## OUTPUT  :
- 
+ ![Screenshot 2024-08-17 104822](https://github.com/user-attachments/assets/8f68717a-4408-434c-8eb8-cac4151ea6ea)
+
+
  
  
  
